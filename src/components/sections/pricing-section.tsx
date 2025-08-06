@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Check, Star, Zap, Crown } from "lucide-react";
 import { Button } from "@components/ui/button";
 
@@ -63,7 +63,7 @@ const pricingPlans = [
   },
 ];
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -74,7 +74,7 @@ const containerVariants = {
   },
 };
 
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: {
     opacity: 0,
     y: 50,
@@ -86,7 +86,7 @@ const cardVariants = {
     scale: 1,
     transition: {
       duration: 0.6,
-      ease: [0.6, -0.05, 0.01, 0.99],
+      ease: "easeOut",
     },
   },
 };
