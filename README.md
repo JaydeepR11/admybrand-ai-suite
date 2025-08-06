@@ -1,7 +1,7 @@
 ## ADmyBRAND AI Suite - Landing Page
 This repository contains the source code for the "ADmyBRAND AI Suite" landing page, a modern, responsive, and visually stunning website built with Next.js 14 and Tailwind CSS. The project was developed with a strong focus on UI/UX, leveraging modern design trends like glassmorphism and smooth animations.
 
-Live Demo: https://admybrand-ai-suite.vercel.app (Example URL)
+Live Demo: [https://admybrand-ai-suite.vercel.app](https://admybrand-ai-suite-tau.vercel.app/)
 
 ## 🌟 Key Features
 - Hero Section: A compelling introduction with an animated headline, subtext, and clear calls-to-action.
